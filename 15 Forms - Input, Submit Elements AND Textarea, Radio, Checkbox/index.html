@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="">
+        <!--In "for" attribute is targetting the id of the input-->
+        <!--"name" attribute will be useful when we submit the data-->
+        <label for="name">First Name</label>
+        <input type="text" name="name" id="name">
+        <br>
+
+        <p>Password</p>
+        <!---"placeholder" attribute gives a message-->
+        <input type="password" placeholder="Type Password">
+
+        <br>
+
+        <!--"value" attribute gives the opportunity to set a default value-->
+        <input type="email" value="email@email">
+        
+        <br>
+
+        <!--Textarea-->
+        <p>Description</p>
+        <textarea cols="20" rows="10"></textarea>
+
+        <br>
+
+        <!--Radio buttons-->
+        <!--All "name" attributes should match-->
+        <!--"value" attribute will be sent when the form is submitted-->
+        <p>Please select your favourite coding language</p>
+        <input type="radio" name="coding" value="javascript">JavaScript
+        <input type="radio" name="coding" value="java">Java
+        <input type="radio" name="coding" value="python">Python
+
+        <br>
+
+        <!--Checkbox-->
+        <!--All "name" attributes should match-->
+        <!--"value" attribute will be sent when the form is submitted-->
+        <!--"checked" attribute, set a checkbox checked by default-->
+        <p>Please select your favourite coding language</p>
+        <input type="checkbox" name="programming" value="javascript">JavaScript
+        <input type="checkbox" name="programming" value="java">Java
+        <input type="checkbox" checked name="programming" value="python">Python
+
+        <br>
+
+        <!--Select Box-->
+        <!--"value" attribute will be sent when the form is submitted-->
+        <p>Please select your favourite coding language</p>
+        <select name="languages" id="">
+            <option value="javascript">JavaScript</option>
+            <option value="java">Java</option>
+            <option value="python">Python</option>
+        </select>
+        
+
+        <br>
+
+        <!--Ways to do a Submit button-->
+        <input type="submit" name="" id="" value="SUBMIT">
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
