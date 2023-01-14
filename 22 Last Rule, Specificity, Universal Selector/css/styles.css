@@ -1,0 +1,43 @@
+/* Last Rule AND Specificity & Universal Selector */
+
+/* Last rule will be applied on the browser, in this case red  */
+/*
+p {
+    color: blue;
+}
+p {
+    color: red;
+}
+*/
+
+
+
+
+/* Specificity */
+/* Inline CSS takes precedence over ids */
+/* Ids takes precedence over classes*/
+/* Classes takes precedence over Type/Element selectors */
+
+/* Red wins over blue */
+/*
+.red {
+    color: red;
+}
+p {
+    color: blue;
+}
+*/
+
+
+
+
+/* Universal Selector*/
+/* This one has the least level of specifity */
+
+/* Red wins over blue */
+p {
+    color: red;
+}
+* {
+    color: blue;
+}

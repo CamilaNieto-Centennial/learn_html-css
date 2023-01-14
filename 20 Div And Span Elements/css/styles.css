@@ -1,0 +1,22 @@
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+.white {
+    color: white;
+    background: black;
+}
+
+div {
+    color: red;
+    background: gray;
+}
+
+span {
+    text-transform: uppercase;
+    background: yellow;
+}

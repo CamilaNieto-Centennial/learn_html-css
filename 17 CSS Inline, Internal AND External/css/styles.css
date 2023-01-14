@@ -1,0 +1,11 @@
+/*
+External CSS: Styles inside of a .css file.
+This is a much productive way to add CSS
+*/
+h2 {
+    color: crimson;
+}
+
+h3 {
+    color: yellow;
+}

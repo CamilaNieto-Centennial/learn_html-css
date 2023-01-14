@@ -1,0 +1,56 @@
+/* Type/Element Selectors */
+/*
+h1 {
+    color: red;
+}
+h2 {
+    color: green;
+}
+p {
+    color: gray;
+}
+*/
+
+
+/*
+body {
+    color: red;
+}
+*/
+/*Grouping Selector*/
+/*
+h1, h2 {
+    color: blue;
+}
+*/
+
+
+/* ID Selector */
+#heading {
+    color:gold;
+    background: black;
+}
+#subheading {
+    color: darkblue;
+    background: lightcoral;
+}
+
+
+
+/* Class Selector */
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+    background: gray;
+}
+
+#title {
+    font-size: 40px;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
