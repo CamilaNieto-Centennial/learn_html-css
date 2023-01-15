@@ -1,0 +1,76 @@
+/*RGB: Stands for Red Green Blue. We can pick values from 0-255.*/
+/*
+#first{
+    color: rgb(255, 0, 0);
+    background-color: rgb(0, 0, 0);
+}
+
+#second{
+    color: rgb(255, 255, 255);
+    background: rgb(0, 255, 0) ;
+}
+
+#three{
+    color: rgb(0,0,255);
+    background-color: rgb(50, 50, 50);
+}
+
+body {
+    background: rgb(100, 54, 50);
+}
+*/
+
+
+
+
+
+/*RGBA: Shows opacity/transparency (0-1)*/
+/*
+#first{
+    color: rgb(100, 123, 56);
+    background-color: rgba(0, 0, 0, 0.5)
+}
+#second{
+    color: rgb(45, 10, 34);
+    background-color: rgba(0, 0, 0, 0.25)
+}
+#three{
+    color: rgb(255, 0, 0);
+    background-color: rgba(0, 0, 0, 0)
+}
+#four{
+    color: rgb(0, 0, 255);
+    background-color: rgba(0, 0, 0, 1)
+}
+body {
+    background: rgba(10, 200, 200, 0.3)
+}
+*/
+
+
+
+/* HSL */
+/* HEX values #RRGGBB
+   123456789 A(10) B(11) C(12) D(13) E(14) F(15)
+             10 11 12 13 14 15
+             #FF0000 - RED
+             #00FF00 - GREEN
+*/
+/*
+*/
+#first{
+    color: #ff0000;
+    background-color: #000000;
+}
+#second{
+    color: #FFF;
+    background-color: #00FF00;
+}
+#three{
+    color: #0000FF;
+    background-color: #F15025;
+}
+#four{
+    color: #F234AD;
+    background-color: #222;
+}

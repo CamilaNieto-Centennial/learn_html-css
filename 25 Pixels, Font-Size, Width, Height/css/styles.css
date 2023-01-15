@@ -1,0 +1,10 @@
+/* Font-size: Control the size of the font or text */
+/* Width:  Control the width of the element*/
+/* Height:  Control the height of the element*/
+/* Pixels (px): An absolute unit of measurement. 1 pixel represents 1 dot on the screen. */
+h1 {
+    font-size: 60px;
+    width: 400px;
+    height: 200px;
+    background: blue;
+}
