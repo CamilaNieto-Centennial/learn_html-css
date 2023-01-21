@@ -1,0 +1,19 @@
+/* font-weight font-style*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+}
+.main {
+    font-family: fantasy;
+}
+.subheading {
+    font-style: normal;
+}
+.one {
+    font-weight: bold;
+}
+.two {
+    font-weight: lighter;
+}

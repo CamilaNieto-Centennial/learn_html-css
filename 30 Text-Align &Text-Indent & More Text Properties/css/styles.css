@@ -1,0 +1,54 @@
+/*
+text-align
+text-indent
+*/
+
+/*
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.main {
+    text-align: center;
+}
+.subheading {
+    text-align: right;
+}
+.one {
+    text-indent: 10rem;
+}
+*/
+
+
+
+
+
+/*
+line-height
+letter-spacing
+word-spacing
+text-transform
+text-decoration
+*/
+a {
+    font-size: 25px;
+    text-decoration: none;
+}
+h1{
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+.one {
+    line-height: 2rem;
+    text-decoration: overline;
+}
+.two {
+    letter-spacing: 5px;
+}
+.three {
+    word-spacing: 20px;
+}
+
+
+
+

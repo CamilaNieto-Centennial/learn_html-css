@@ -1,0 +1,41 @@
+/* CSS Box Model 
+Padding
+Margin
+Border
+*/
+/** {
+    margin: 0;
+}*/
+/*
+h1 {
+    background-color: red;
+    padding: 30px;
+    margin: 10px;
+    border: 10px solid green;
+}
+p {
+    background-color: blue;
+    border-right-style: dashed;
+    border-right-width: 5px;
+    border-right-color: #f1f;
+    margin: 10px 30px;
+    padding: 50px;
+}
+*/
+
+
+
+/* Border-radius & Negative Margin*/
+h1 {
+    background-color: red;
+    padding: 20px;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+p {
+    background-color: blue;
+    padding: 30px;
+    border: 13px solid green;
+    border-radius: 50%;
+    margin-top: -50px;
+}
