@@ -1,0 +1,7 @@
+/* inline-block */
+a {
+    font-size: 60px;
+    background: red;
+    margin: 30px;
+    display: inline-block;
+}
