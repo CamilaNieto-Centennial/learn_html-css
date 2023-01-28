@@ -1,0 +1,40 @@
+/* Basic Selectors */
+
+/* UNIVERSAL SELECTOR */
+* {
+    color: red;
+}
+
+/* ID SELECTOR */
+#heading {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: blue;
+}
+
+/* CLASS SELECTOR */
+.heading {
+    font-size: 20px;
+    text-transform: capitalize;
+    color: green;
+}
+
+/* TYPE/ELEMENT SELECTOR */
+p {
+    letter-spacing: 20px;
+}
+
+/* Descendant & Child Combinators */
+/* Children can be descendants. But descendants can NOT be children*/
+
+/* DESCENDANT:  */
+/* All h1s withing <div>. No matter if they are grandchildren. */
+div h1{
+    color: darkgoldenrod;
+}
+
+/* CHILD:  */
+/* Direct children. Direct h1 children from <div> */
+div > h1{
+    background: black;
+}
