@@ -1,0 +1,21 @@
+/* 
+transform : translate(), scale(), rotate(), skew()
+*/
+
+div {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+.one {
+    background: red;
+    transform: rotateY(80deg);
+}
+.two {
+    background: green;
+    transform: rotateZ(45deg);
+}
+.three {
+    background: blue;
+    transform: rotateX(60deg);
+}
