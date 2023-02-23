@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background: #cacaca;
+    padding: 10px;
+    margin: 50px;
+    display: flex;
+    flex-direction: row; /* column, row, column-reverse, row-reverse */ 
+
+    /* justify-content: How the flex items should be stacked or aligned along the main axis*/
+    justify-content: center; /* center, space-between, space-around, space-evenly, flex-start, flex-end*/
+
+    /* align-items: Aligns items along the Cross axis */
+    align-items: flex-end; /* center, flex-start, flex-end, stretch, baseline */
+}
+
+.item {
+    background: #ff0037;
+    color: #fff;
+    font-size: 35px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.items-1 {
+    /* order: Change the order of the items' position */
+    order: 3;
+}
+
+.items-2 {
+    order: 4;
+}
+
+.items-3 {
+    height: 150px;
+    order: 0;
+}
+
+.items-4 {
+    /* align-self: Align one single item along the Cross axis */
+    align-self: center; /* same values that 'align-items' accepts */
+    order: 1;
+}
+
+.items-5 {
+    order: 2;
+}

@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background: #cacaca;
+    padding: 10px;
+    margin: 50px;
+    /* Setting the flex property in the parent container would become the child elements into flex items */
+    display: flex;
+
+    /* flex-direction: Find the direction of the flex items within the container. By default it's set to 'row'  */
+    /* Here, we're changing the axis itsef */
+    /* There are 2 different axes in flexbox: 
+        - Main-axis: For flex-direction set to row, the Main-axis is x-axis. For flex-direction set to column, the Main-axis is y-axis.
+        - Cross-axis: */
+    /* 'column-reverse' will behave same as 'column' but items are inverted in the y-axis (bottom to top) */
+    /* 'row-reverse' will behave same as 'row' but items are inverted in the x-axis (right to left)*/
+    flex-direction: row; /* column, row, column-reverse, row-reverse */ 
+
+    /* justify-content: How the flex items should be stacked or aligned along the main axis*/
+    justify-content: center; /* center (center the items in the container), 
+    space-between (distribute the space between the items in the container),
+    space-around (space between items, space in the first and last items is shorter to the rest),
+    space-evenly (equal space to every item),
+    flex-start (move items at the beginning of the container, if its direction is 'row', then items will appear on the left side),
+    flex-end (move items at the end of the container, if its direction is 'row', then items will appear on the right side) */
+
+    /* align-items: Aligns items along the Cross axis */
+    align-items: baseline; /* center, flex-start, flex-end, 
+    stretch (all flex items match the height of the tallest flex item),
+    baseline (Aligns all the flex items along the text inside the items) */
+}
+
+.item {
+    background: #ff0037;
+    color: #fff;
+    font-size: 35px;
+    padding: 20px;
+    margin: 10px;
+    /*display: inline-block;*/
+}
+
+.items-3 {
+    height: 150px;
+}
+
+.items-4 {
+    font-size: 70px;
+}
