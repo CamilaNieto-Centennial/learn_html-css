@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background: #f5f5f5;
+}
+
+.container {
+    max-width: 960px;
+    margin: 100px auto;
+    padding: 10px;
+    /* Make container a Grid */
+    display: grid;
+
+    /* Set the columns, and their size (you can use px, %, fr (fractional units)) */
+    grid-template-columns: repeat(3, 100px);
+
+    /* Give spaces between columns and rows */
+    gap: 10px;
+
+    /* Align items in the y-axis */
+    align-items: center; /* start, end, center, stretch */
+
+    /* Justify content in the x-axis */
+    justify-content: end; /* start, end, center, stretch, space-around, space-between, space-evenly */
+}
+
+.item {
+    background: steelblue;
+    color: #fff;
+    font-size: 20px;
+    padding: 20px;
+    border: skyblue 1px solid;
+}
+
+
+/* BONUS: Use the Grid Browser Dev Tools.  */
+/* To have all the settings for Grid, you can go to Layout -> Grid -> Choose 'Show line numbers' and/or Select 'Show track sizes' */

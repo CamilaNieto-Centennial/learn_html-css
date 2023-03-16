@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background: #f5f5f5;
+}
+
+.container {
+    max-width: 960px;
+    margin: 100px auto;
+    padding: 10px;
+    /* Make container a Grid */
+    display: grid;
+
+    /* Set the columns, and their size (you can use px, %, fr (fractional units)) */
+    /*grid-template-columns: repeat(3, 1fr);*/
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* If the items comes to be lower than 200px, then it will wrap the columns and display minus 1 column.  */
+    
+    /* Give spaces between columns and rows */
+    gap: 10px;
+}
+
+.item {
+    background: steelblue;
+    color: #fff;
+    font-size: 20px;
+    padding: 20px;
+    border: skyblue 1px solid;
+}
+
+/* Media Queries */
+/* Screen sizes less than 500px*/
+@media (max-width: 500px) {
+    .container {
+        /* Display only one column */
+        grid-template-columns: 1fr;
+    }
+}
+/*NOTE: If you have grid-column or grid-row, then use Media Queries to size them accordingly, so number of columns won't affect them*/
+
+
+/* BONUS: Use the Grid Browser Dev Tools.  */
+/* To have all the settings for Grid, you can go to Layout -> Grid -> Choose 'Show line numbers' and/or Select 'Show track sizes' */

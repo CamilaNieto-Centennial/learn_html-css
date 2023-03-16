@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    height: 100vh;
+    display: grid;
+
+    /* Using 'grid-template-areas' and 'grid-area', you get a way to position your items in the way that you want. */
+
+    /* Text representation of how we want our layout */
+    grid-template-areas: 
+    'header header header'
+    'nav content sidebar'
+    'nav footer footer'
+    ;
+
+    /* Set sizing for 3 columns */
+    grid-template-columns: 1fr 4fr 1fr;
+
+    /* Set sizing for 3 rows */
+    grid-template-rows: 80px 1fr 70px;
+}
+
+header, footer, main, nav, aside {
+    background: steelblue;
+    color: white;
+    padding: 20px;
+    border: skyblue 1px solid;
+}
+
+header {
+    /* In the 'grid-area', you set one of the values that you set on the body for 'grid-template-areas' */
+    grid-area: header;
+}
+
+nav {
+    grid-area: nav;
+}
+
+main {
+    grid-area: content;
+}
+
+aside {
+    grid-area: sidebar;
+}
+
+footer {
+    grid-area: footer;
+}
+
