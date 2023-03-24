@@ -8,4 +8,5 @@
     <li>freeCodeCamp. [freeCodeCamp.org]. (2021, July 22). <em>CSS Flexbox Crash Course</em> [Video]. YouTube. <h>https://www.youtube.com/watch?v=tXIhdp5R7sc&list=LL&index=15&t</h></li>
     <li>Traversy Media. [Traversy Media]. (2022, March 2). <em>CSS Grid Crash Course</em> [Video]. YouTube. <h>https://www.youtube.com/watch?v=0xMQfnTU6oo&list=LL&index=8</h></li>
     <li>Traversy Media. [Traversy Media]. (2017, October 31). <em>CSS3 Animation & Transitions Crash Course</em> [Video]. YouTube. <h>https://www.youtube.com/watch?v=zHUpx90NerM&list=LL&index=2</h></li>
+    <li>Slaying The Dragon. [Slaying The Dragon]. (2022, November 30). <em>Learn CSS Animations In 20 Minutes - For Beginners</em> [Video]. YouTube. <h>https://www.youtube.com/watch?v=SgmNxE9lWcY</h></li>
 </ul>
